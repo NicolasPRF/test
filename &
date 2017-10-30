@@ -1,0 +1,523 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+
+        <meta charset="utf-8" />
+        <title>Formation Pôle Emploi : financer avec DIF, CIF, POEI, AIF, Prêt | Formation Développeur WEB en 3 mois</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="https://3wa.fr/wp-content/themes/3wa2015/img/icons/favicon.png" />
+        <!--[if IE]>
+        <link rel="shortcut icon" type="image/x-icon"
+              href="https://3wa.fr/wp-content/themes/3wa2015/img/icons/favicon.ico" />
+        <![endif]-->
+        <meta name="google-site-verification" content="VQW_EUid8gxr6J8w1VGEkOtPfSVL7z_JeDVDYtokfPE" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        
+<!-- All in One SEO Pack 2.4.2 by Michael Torbert of Semper Fi Web Design[292,360] -->
+<meta name="description"  content="Faites financer votre formation avec Pôle Emploi, DIF, CIF, CPF, POEI, AIF, etc. Devenez développeur informatique pour retrouver un emploi en 3 mois." />
+
+<link rel="canonical" href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/3wa.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+    <style>
+        .wi_webinar_widget {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            /*border: 1px solid rgba(0,0,0,0.1);*/
+            /*border-bottom: 2px solid rgba(0,0,0,0.2);*/
+            /*padding: 10px;*/
+            margin: 15px 10px;
+
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-weight: 300;
+        }
+
+        .webinar_title {
+            text-align: center;
+            font-size: 24px;
+            line-height: 36px;
+            padding: 20px;
+            border-bottom: 1px solid #DDD;
+            color: #222222;
+        }
+
+        .wi_webinar_date {
+            background-color: #C95456;
+            color: #FFF;
+            /*font-weight: bold;*/
+            text-align: center;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+            border-top: 2px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .wi_webinar_sign_up {
+            text-align: center;
+            background-color: #F7F7F7;
+            padding: 20px;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+            color: #222222;
+        }
+
+        .wi_webinar_headline1 {
+            display: block;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .wi_webinar_headline2 {
+            display: block;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        .wi_signup_btn {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            width: 100% !important;
+            background-color: #55B369 !important;
+            display: block !important;
+            margin-top: 10px !important;
+            font-size: 18px !important;
+            font-weight: bold !important;
+            padding: 10px !important;
+            border-radius: 5px !important;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.2) !important;
+            text-decoration: none !important;
+            color: #FFF !important;
+            height: 46px !important;
+            line-height: 23px !important;
+        }
+
+        .wi_signup_btn:hover {
+            text-decoration: none !important;
+            color: #FFF !important;
+            background-color: #4ba05e !important;
+        }
+
+        .wi_webinar_input {
+            display: block;
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 5px;
+            height: 46px;
+            line-height: 46px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        .wi_webinar_spam {
+            border-top: 1px solid #DDD;
+            padding-top: 15px;
+            margin-top: 15px;
+            text-transform: uppercase;
+            font-size: 10px;
+            color: #757575;
+        }
+    </style>
+    <link rel='stylesheet' id='fancybox-css'  href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css?ver=4.8.2' media='all' />
+<link rel='stylesheet' id='3warr_style-css'  href='https://3wa.fr/wp-content/plugins/3wa-rss-remix/css/style.css?ver=4.8.2' media='all' />
+<link rel='stylesheet' id='breadcrumb-css'  href='https://3wa.fr/wp-content/plugins/3wa-bread/breadcrumb.css?ver=4.8.2' media='all' />
+<link rel='stylesheet' id='normalize-css'  href='https://3wa.fr/wp-content/themes/3wa2015/vendor/normalize/normalize.min.css?ver=3.0.2' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://3wa.fr/wp-content/themes/3wa2015/vendor/font-awesome/css/font-awesome.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='base-css'  href='https://3wa.fr/wp-content/themes/3wa2015/css/base.css?ver=4.8.2' media='all' />
+<link rel='stylesheet' id='layout-css'  href='https://3wa.fr/wp-content/themes/3wa2015/css/layout.css?ver=4.8.2' media='all' />
+<link rel='stylesheet' id='helpers-css'  href='https://3wa.fr/wp-content/themes/3wa2015/css/helpers.css?ver=4.8.2' media='all' />
+<link rel='stylesheet' id='boostrap-css'  href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?ver=4.8.2' media='all' />
+<link rel='stylesheet' id='main-css'  href='https://3wa.fr/wp-content/themes/3wa2015/css/modules-main.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://3wa.fr/wp-content/plugins/jetpack/css/jetpack.css?ver=5.4' media='all' />
+<script type='text/javascript' src='https://3wa.fr/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://3wa.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1' defer '></script>
+<script type='text/javascript' src='https://www.google.com/jsapi?ver=1'></script>
+<link rel='https://api.w.org/' href='https://3wa.fr/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://3wa.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2F3wa.fr%2Fla-formation-developpeur-php%2Ffinancements-cpf-cif-pole-emploi%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://3wa.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2F3wa.fr%2Fla-formation-developpeur-php%2Ffinancements-cpf-cif-pole-emploi%2F&#038;format=xml" />
+
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//jetpack.wordpress.com'/>
+<link rel='dns-prefetch' href='//s0.wp.com'/>
+<link rel='dns-prefetch' href='//s1.wp.com'/>
+<link rel='dns-prefetch' href='//s2.wp.com'/>
+<link rel='dns-prefetch' href='//public-api.wordpress.com'/>
+<link rel='dns-prefetch' href='//0.gravatar.com'/>
+<link rel='dns-prefetch' href='//1.gravatar.com'/>
+<link rel='dns-prefetch' href='//2.gravatar.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+                n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+                document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1121020521298991');
+            fbq('track', "PageView");</script>
+            <noscript><img height="1" width="1" style="display:none"
+                       src="https://www.facebook.com/tr?id=1121020521298991&ev=PageView&noscript=1"
+            /></noscript>
+        <!-- End Facebook Pixel Code -->
+    </head>
+    <body class="page-template-default page page-id-509 page-parent page-child parent-pageid-19 financements-cpf-cif-pole-emploi">
+
+        <!-- Facebook -->
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {
+                    return;
+                }
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.0";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <header id="header">
+
+            <div class="header-logo">
+                <a href="https://3wa.fr/"
+                   title="Accueil | Formation web, HTML5, css, javascript, php, MySQL avec notre école informatique 3WA">
+                    <img src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" alt="Logo 3W Academy">
+                </a>
+            </div>
+            <nav>
+                <ul><li><a href="https://3wa.fr/la-formation-developpeur-php/">La formation</a></li><li><a href="https://3wa.fr/formation/">Les métiers</a></li><li><a href="https://3wa.fr/les-entreprises/">Les débouchés</a></li></ul><ul><li><a href="https://3wa.fr/qui-sommes-nous-formation-developpeur-php-web-paris/">Notre école</a></li><li><a href="https://3wa.fr/faq/">FAQ</a></li><li><a href="https://3wa.fr/inscription-a-la-prochaine-reunion-dinformation-porte-ouverte/">Contact</a></li></ul>            </nav>
+        </header><main role="main" class="formation-main">
+	<header class="header-formation">
+    <div class="bandeau">
+        <div class="wrapper">
+            <h2>Formation avec Pôle Emploi, DIF, CIF, CPF, POEI</h2>
+            <p>Faites financer tout ou partie de votre formation informatique avec Pôle Emploi, DIF, CIF, CPF, AIF, POEI, etc.</p>
+        </div>
+    </div>
+    <h1>Financements</h1>
+        
+
+
+        
+            <nav class="wrapper">
+                <ul>
+
+                    <!--
+                -->
+                    <li><a class="el" href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/dif-droit-individuel-a-la-formation/">Formation avec le DIF</a></li>
+                    <!--
+                                --><!--
+                -->
+                    <li><a class="el" href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/formation-avec-aif-aide-individuelle-a-la-formation/">Formation avec AIF</a></li>
+                    <!--
+                                --><!--
+                -->
+                    <li><a class="el" href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/financements-poei/">Formation avec la POEI</a></li>
+                    <!--
+                                --><!--
+                -->
+                    <li><a class="el" href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/formation-avec-cif/">Formation avec le CIF</a></li>
+                    <!--
+                                --><!--
+                -->
+                    <li><a class="el" href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/formation-avec-csp/">Formation avec le CSP</a></li>
+                    <!--
+                                -->
+                </ul>
+                <ul class="nav-sec">
+
+                </ul>
+            </nav>
+
+        
+
+        <div id="bread-area" class="breadcrumb-container wrapper"><a id='' href='https://3wa.fr/' class='breadcrumb-links'>Accueil  / </a><a id='' href='https://3wa.fr/la-formation-developpeur-php/' class='breadcrumb-links'>La formation / </a>Financements</div></header>	<div class="wrapper">
+		<div class="clearfix">
+			
+				<!-- article -->
+				<article id="post-509" class="post-509 page type-page status-publish hentry">
+
+					<blockquote><p><a title="Inscription à la prochaine réunion d’information (Portes Ouvertes)" href="https://www.3wa.fr/inscription-a-la-prochaine-reunion-dinformation-porte-ouverte/" rel="nofollow">Venez nous rencontrer (réunion d&rsquo;information ou entretien individuel)</a> pour être pleinement renseigné sur les <strong>possibilités de financement</strong> et obtenir un <strong>devis formation</strong> permettant de déclencher la demande de prise en charge éventuelle.</p></blockquote>
+<h1><strong>Financement Pôle-Emploi de votre formation</strong></h1>
+<p>Pôle-Emploi <strong>finance</strong> dans certains cas votre <a title="Formation informatique, formation web" href="https://3wa.fr/"><strong>formation web</strong></a>. Nous sommes éligibles aux dispositifs <strong>AIF</strong> et <strong>POEI (un emploi assuré après une formation gratuite, voir ci-dessous)</strong>.</p>
+<h2 style="color: #dd5735; margin: 3em 0 1.2em; font-size: 1.1em; font-weight: 400; line-height: 1.1;" title="Vous pouvez utiliser votre CPF"><strong>CPF : Compte Personnel de Formation (Formation DIF)</strong></h2>
+<p>Vous pouvez utiliser votre <strong>CPF (anciennement DIF, Droit individuel à la formation) pour financer</strong> une partie de la <strong>formation développeur</strong> : <a href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/dif-droit-individuel-a-la-formation/">Formation DIF</a>.</p>
+<h2 style="color: #dd5735; margin: 3em 0 1.2em; font-size: 1.1em; font-weight: 400; line-height: 1.1;" title="Vous pouvez utiliser votre CPF"><strong>AIF : Aide individuelle à la formation (Formation AIF)</strong></h2>
+<p>Vous pouvez <strong>bénéficier de l&rsquo;aide individuelle à la formation</strong> pour <strong>prendre en charge les frais de formation</strong> ainsi que d&rsquo;autres frais (déplacements, restauration, hébergement par exemple). Pour savoir si vous pouvez <strong>bénéficier de l&rsquo;AIF</strong> consultez notre page détaillée <a href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/formation-avec-aif-aide-individuelle-a-la-formation/">Formation AIF</a>.</p>
+<h2 style="color: #dd5735; margin: 3em 0 1.2em; font-size: 1.1em; font-weight: 400; line-height: 1.1;" title="Vous pouvez demander un POEI"><strong>POEI : Pré-embauche avant la formation</strong></h2>
+<p>Si une entreprise vous fait une promesse d&#8217;embauche, vous pouvez demander à bénéficier d’une <strong>POEI</strong>. En cas d’acceptation, vous serez indemnisé par Pôle-Emploi et les <strong>frais de formation</strong> seront entièrement <strong>pris en charge</strong>. <a href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/financements-poei/" target="_blank" rel="noopener noreferrer">Suivez notre méthodologie pour décrocher une pré-embauche.</a></p>
+<h2 style="color: #dd5735; margin: 3em 0 1.2em; font-size: 1.1em; font-weight: 400; line-height: 1.1;" title="Vous pouvez demander un CIF"><strong>CIF : Congé Individuel Formation géré par le FONGECIF</strong></h2>
+<p>Si vous êtes salarié, vous pouvez demander à bénéficier d’un <strong>Congé Individuel Formation</strong>. En cas d’acceptation, vous serez rémunéré et les <strong>frais de formation</strong> seront entièrement <strong>pris en charge</strong>. Cliquez sur <a href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/formation-avec-cif/">Formation CIF</a> pour en savoir plus.</p>
+<h2 style="color: #dd5735; margin: 3em 0 1.2em; font-size: 1.1em; font-weight: 400; line-height: 1.1;" title="le CSP donne accès à notre formation"><strong>CSP Contrat de Sécurisation Professionnelle</strong></h2>
+<p>Le <strong>dispositif CSP</strong> donne accès à notre formation et prend en charge l’intégralité des <strong>frais de formation</strong>. Rendez-vous sur la page <a href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/formation-avec-csp/">Formation CSP</a> pour plus d&rsquo;informations.</p>
+<h2 style="color: #dd5735; margin: 3em 0 1.2em; font-size: 1.1em; font-weight: 400; line-height: 1.1;" title="Nous avons négocié un prêt étudiant avantageux"><strong>Prêt étudiant</strong></h2>
+<p>Vous pouvez obtenir un <strong>prêt étudiant</strong> avantageux sur 36 mois.</p>
+<h2 style="color: #dd5735; margin: 3em 0 1.2em; font-size: 1.1em; font-weight: 400; line-height: 1.1;" title="Vous pouvez payer en trois fois sans frais"><strong>Paiement en trois fois sans frais</strong></h2>
+<p>La plupart de nos étudiants <strong>autofinancent la formation développeur</strong>. Sur simple demande, vous pouvez payer en 3 fois sans frais.</p>
+<h2 style="color: #dd5735; margin: 3em 0 1.2em; font-size: 1.1em; font-weight: 400; line-height: 1.1;" title="Vous bénéficiez d'une remise de 105€ en payant d'avance - il y avait une erreur ici, elle est corrigée"><strong>Paiement d&rsquo;avance avec remise</strong></h2>
+<p>Si vous réglez la totalité des <strong>frais de formation</strong> lors de votre inscription, vous bénéficiez d’une <strong>remise de 105€</strong>.</p>
+<p>&nbsp;</p>
+<p>Les internautes ayant consulté des informations relatives à la <strong>formation avec le Pôle Emploi</strong> ont recherché des précisions sur le <span style="text-decoration: underline;">financement d&rsquo;une formation par Pôle Emploi</span> ou la <span style="text-decoration: underline;">prise en charge par Pôle Emploi</span>, la <span style="text-decoration: underline;">formation anpe</span>, la <span style="text-decoration: underline;">formation Pôle emploi rémunérée</span> ou <span style="text-decoration: underline;">payée par Pôle Emploi</span>, <span style="text-decoration: underline;">formation rémunérée en informatique</span>, <span style="text-decoration: underline;">formation gratuite avec Pôle emploi</span>.</p>
+
+				</article>
+				<!-- /article -->
+
+			
+			
+			    <aside>
+        <div class="bloc-reunion">
+    <button class="reunion ui-button default">Je m'inscris à une réunion</button>
+    <div class="modal">
+        <section class="content-container form-candidature">
+
+        </section>
+    </div>
+</div><img src="https://3wa.fr/wp-content/themes/3wa2015/img/blocs/bloc-technos.jpg" alt="5 technologies : HTML, CSS, Javascript, PHP, MySQL"><img src="https://3wa.fr/wp-content/themes/3wa2015/img/blocs/bloc-pratique.jpg" alt="90% de pratique 10% de théorie"><div class="bloc-plancours">
+	<div>
+		<!--<h3>Téléchargez<br>le plan de cours</h3>
+		<img src="https://3wa.fr/wp-content/themes/3wa2015/img/blocs/logo-pdf.jpg" alt="">-->
+		<a class="ui-button" href="/wp-content/uploads/2017/05/3WAProgrammeFormation2017.pdf" target="_blank"><i class="fa fa-download"></i>Télécharger</a>
+	</div>
+</div>            </aside>
+		</div>
+	</div>
+	
+    <section class="contact" id="contact">
+	<div class="wrapper">
+		<img src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/rappel-logo.png" alt="">
+		<h2>Nous vous rappelons</h2>
+		<p>Saisissez votre numéro de téléphone, nous vous rappelons immédiatement</p>
+		<p class="horaires">du lundi au vendredi de 9h30 à 18h !</p>
+		<input id="js-phone-number" class="ui-form-field" type="text" maxlength="14" placeholder="Mon numéro">
+        <button id="js-click-to-call" class="ui-button grey framed wider" disabled>Me rappeler</button>
+        <!--<p class="lien-info"><i class="fa fa-arrow-right"></i> <a href="/#contact_nom">Me contacter par email</a></p>-->
+	</div>
+</section>
+    <section class="timeline">
+	<div class="wrapper">
+                    <h2>Devenez un véritable développeur Javascript et PHP</h2>
+        		<div class="steps clearfix">
+			<div class="step step1 clearfix">
+				<div class="logo"></div>
+				<div>
+					<h4>Mois 0</h4>
+					<p>Mise à niveau gratuite et sans engagement en commençant par une <strong><a href="https://apprendre-html.3wa.fr/" title="Apprendre le code HTML" target="_blank">introduction à HTML</a></strong></p>
+				</div>
+			</div>
+			<div class="step step2 clearfix">
+				<div class="logo"></div>
+				<div>
+					<h4>400 heures de cours répartis sur 57 jours</h4>
+					<p>Le <strong><a href="https://3wa.fr/la-formation-developpeur-php/duree-de-formation/">programme de formation</a></strong> couvre les <a href="https://3wa.fr/la-formation-developpeur-php/technologies/">5 technologies web</a> les plus utilisées sur le web : <strong><a href="https://3wa.fr/technologies/html/"><span>HTML</span></a>, <a href="https://3wa.fr/technologies/css/"><span>CSS</span></a>, <a href="https://3wa.fr/technologies/javascript/"><span>JavaScript</span></a>, <a href="https://3wa.fr/technologies/php/"><span>PHP</span></a>, <a href="https://3wa.fr/technologies/mysql/"><span>SQL</span></a></strong></p>
+				</div>
+			</div>
+			<div class="step step3 clearfix">
+				<div class="logo"></div>
+				<div>
+					<h4>Certification RNCP</h4>
+					<p>Les élèves ont pu <a href="https://3wa.fr/la-formation-developpeur-php/">devenir de <span>véritables développeurs web</span></a></p>
+				</div>
+			</div>
+			<div class="step step4 last clearfix">
+				<div class="logo"></div>
+				<div>	
+					<h4>En activité</h4>
+					<p>À la 3W Agency, salarié en entreprise, en <strong>free-lance</strong>, en <strong>création de startup</strong></p>
+				</div>
+			</div>
+		</div>
+
+		<a id="more" class="ui-button framed" href="/inscription-a-la-prochaine-reunion-dinformation-porte-ouverte/">En savoir plus</a>
+		<div class="modal">
+			<section class="more-content form-candidature"></section>
+		</div>
+
+		<!--<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+		<div id="demo" class="collapse">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+			sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</div>-->
+
+	</div>
+</section></main>
+<!--<section class="wrapper links">
+	</section>-->
+<!-- footer -->
+<footer class="footer" role="contentinfo">
+	<div class="wrapper">
+		<h2><i class="fa fa-info-circle" aria-hidden="true"></i> Plus d'informations sur la 3W Academy, centre de formation sur Paris, Marseille, Lyon, Strasbourg, Nantes, Lille, Grenoble, Aix en Provence.</h2>
+
+		<div class="rappel-menu">
+			<div>
+				<h3>Formations</h3>
+				<ul>
+					<li><a href="https://3wa.fr/la-formation-developpeur-php/">PHP/JS - Développeur Intégrateur web</a></li>
+					<li><a href="https://mobile.3wa.fr/">Mobile iOS</a></li>
+					<li><a href="https://symfony.3wa.fr/">Symfony</a></li>
+					<!--<li><a href="">Graines de Boss</a></li>
+					<li><a href="">ESILV (école d'ingénieur)</a></li>-->
+					<li><a href="https://live.3wa.fr/">Live! (à distance)</a></li>
+					<li><a href="https://3wa.fr/la-formation-developpeur-php/duree-de-formation/dates-des-prochaines-sessions-de-formation/">Dates et Lieux</a></li>
+				</ul>
+
+				<h3>Contacts</h3>
+				<ul>
+					<li><a href="https://3wa.fr/inscription-a-la-prochaine-reunion-dinformation-porte-ouverte/">Réunion d'information</a></li>
+					<!-- <li><a href="">Me rappeler</a></li>
+					<li><a href="">Mail</a></li> -->
+					<li><a href="https://3wa.fr/#plan">Adresses</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>Qui sommes nous</h3>
+				<ul>
+					<li><a href="https://3wa.fr/qui-sommes-nous-formation-developpeur-php-web-paris/">Ecole 3WA</a></li>
+					<li><a href="https://3wa.fr/certification-rncp-developpeur-integration-web-3w-academy/certification-rncp-inscrite-au-journal-officiel/">Diplôme RNCP</a></li>
+					<li><a href="https://3wa.fr/qui-sommes-nous-formation-developpeur-php-web-paris/engagement-qualite/">Qualité Certifiée Bureau Veritas</a></li>
+					<li><a href="https://3wa.fr/la-formation-developpeur-php/les-locaux-paris-eiffel-saint-saens/">Locaux et accès</a></li>
+				</ul>
+
+				<h3>Débouchés</h3>
+				<ul>
+					<li><a href="https://3wa.fr/les-entreprises/">Les Entreprises</a></li>
+					<li><a href="https://3wa.fr/formation/">Les Métiers</a></li>
+				</ul>
+
+				<h3>FAQ</h3>
+				<ul>
+					<li><a href="https://3wa.fr/la-formation-developpeur-php/duree-de-formation/dates-des-prochaines-sessions-de-formation/">Dates</a></li>
+					<li><a href="https://3wa.fr/la-formation-developpeur-php/financements-cpf-cif-pole-emploi/">Financements</a></li>
+					<li><a href="https://3wa.fr/faq/">FAQ</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous" defer></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" defer></script>
+</footer>
+<!-- /footer -->
+
+
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js?ver=4.8.2' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/plugins/3wa-rss-remix/js/fancybox_call.js?ver=4.8.2' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/plugins/3wa-clicktocall/js/jquery.mask.js?ver=1.10.13' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/plugins/3wa-clicktocall/js/main.js?ver=1.00' defer '></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201744' defer '></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2017Octaa' defer '></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.8.2' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/themes/3wa2015/vendor/bootstrap/js/bootstrap.min.js?ver=3.3.5' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/themes/3wa2015/vendor/jquery.mask/jquery.mask.js?ver=1.11.4' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/themes/3wa2015/vendor/conditionizr/conditionizr.min.js?ver=4.3.0' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/themes/3wa2015/vendor/modernizr/modernizr.min.js?ver=2.7.1' defer '></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?ver=1.0.0' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/themes/3wa2015/js/scripts.js?ver=1.0.0' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-content/themes/3wa2015/js/modules/3wa-click.js?ver=1.0.0' defer '></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js?ver=2.18.1' defer '></script>
+<script type='text/javascript' src='https://3wa.fr/wp-includes/js/wp-embed.min.js?ver=4.8.2' defer '></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201744.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:5.4',blog:'51103810',post:'509',tz:'2',srv:'3wa.fr'} ]);
+	_stq.push([ 'clickTrackerInit', '51103810', '509' ]);
+</script>
+
+<!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1898540365]);
+    (function() {
+        function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+        setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+    })();
+</script>
+<!-- End Inspectlet Embed Code --> 
+
+<!-- Remarketing -->
+<script type="text/javascript">
+
+	/* <![CDATA[ */
+
+	var google_conversion_id = 997695602;
+
+	var google_custom_params = window.google_tag_params;
+
+	var google_remarketing_only = true;
+
+	/* ]]> */
+
+</script>
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+
+</script>
+
+<noscript>
+
+	<div style="display:inline;">
+
+		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/997695602/?value=0&amp;guid=ON&amp;script=0"/>
+
+	</div>
+
+</noscript>
+
+<!-- analytics -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-40931321-1', '3wa.fr');
+	ga('send', 'pageview');
+
+
+
+
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7f134d7039","applicationID":"17908100","transactionName":"Z1VXZ0BUW0FWURcPV14fdFBGXFpcGEICAV0=","queueTime":0,"applicationTime":417,"atts":"SxJUEQhOSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
